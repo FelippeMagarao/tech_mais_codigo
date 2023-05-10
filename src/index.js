@@ -4,7 +4,8 @@ import './index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Sobre from './pages/Sobre';
+import Sobre from './pages/Chamados';
+import Login from './pages/login';
 
 const rotas = createBrowserRouter([
   {
@@ -14,7 +15,11 @@ const rotas = createBrowserRouter([
   {
     path: "sobre",
     element: <Sobre />
-  }
+  },
+  {
+    path: "login",
+    element: <Login />
+  },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,7 +1,7 @@
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 
-const Sobre = () => (
+const Chamados = () => (
     <>
     <Menu />
     <h1>Chamados</h1>
@@ -35,4 +35,4 @@ const Sobre = () => (
 );
 
 
-export default Sobre;
+export default Chamados;
