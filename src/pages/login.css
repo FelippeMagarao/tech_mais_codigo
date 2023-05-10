@@ -1,0 +1,25 @@
+.Login {
+  background-color:black;
+  text-align: center;
+  justify-content:center;  
+}
+
+.Login-logo{
+  background-color: rgb(17, 17, 17);
+  justify-content: center;
+  text-align: center;
+    
+}
+
+.Login-area{
+  background-color: white;
+  color:#8257E6;
+  padding: 3px;
+
+}
+
+.footer{
+  color: white;
+  padding: 2px;
+  
+}
