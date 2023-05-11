@@ -1,7 +1,6 @@
 import logo from './minha_foto.jpg';
 import './style.css';
 import Menu from '../components/Menu/Menu';
-import Link from './chamados';
 
 function Login() {
     return (
