@@ -2,7 +2,7 @@ import logo from './minha_foto.jpg';
 import '../pages/style.css'
 import Menu from '../components/Menu/Menu';
 
-function Abertura() {
+function Cadastro() {
     return (
     <div className="Login">
       <Menu />
@@ -10,20 +10,23 @@ function Abertura() {
         <img src={logo} className="Login-logo" alt="logo" />
       </header>
       <body className='Login-area'>
-        <h1>Abertura de chamados</h1>
-        <p>Título do chamado</p> 
+        <h1>Cadastro de usuários</h1>
+        <p>Nome do funcionário</p> 
         <input type='text'></input> 
 
-        <p>Descrição do problema</p> 
-        <input type='text'></input> 
+        <p>Email</p> 
+        <input type='e-mail'></input> 
 
-        <p>Criticidade / SLA</p> 
+        <p>Senha</p> 
+        <input type='password'></input> 
+
+        <p>Setor</p> 
         <input type='text'></input> 
         
-        <p>Responsável pela abertura</p> 
+        <p>Responsável RH</p> 
         <input type='text'></input> 
 
-        <p>Data de abertura</p> 
+        <p>Data de cadastro</p> 
         <input type='date'></input> 
         <p></p>
         <button>Enviar</button>
@@ -37,4 +40,4 @@ function Abertura() {
   );
 }
 
-export default Abertura;
+export default Cadastro;

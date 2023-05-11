@@ -1,5 +1,5 @@
-.Login{
-    padding: 20px;
+p{
+  background-color: black;
 }
 
 .App {
@@ -18,7 +18,6 @@
   }
   
   .App-header {
-    background-color: #282c34;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,7 +25,6 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-    background-color:#6c6b6d;
   }
   
   .App-link {
@@ -42,7 +40,32 @@
     }
   }
 
+  .Login {
+    background-color:black;
+    text-align: center;
+    justify-content:center;  
+  }
+  
+  .Login-logo{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+      
+  }
+  
+  .Login-area{
+    display: inline-block;
+    border: 3px solid #8257e6;
+    border-radius: 50px;
+    background-color: black;
+    color:white;
+    padding: 10px;
+    font-size: large;
+  }
+  
   .footer{
     color: white;
+    padding: 20px;
   }
+  
   

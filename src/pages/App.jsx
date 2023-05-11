@@ -1,19 +1,30 @@
 import logo from './minha_foto.jpg';
-import './App.css';
+import './style.css';
 import Menu from '../components/Menu/Menu';
+import Link from './chamados';
 
-function App() {
-  return (
-    <div className="App">
+function Login() {
+    return (
+    <div className="Login">
       <Menu />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Gerenciador de chamados TechMais ©
-        </p>
+      <header className="Login-logo">
+        <img src={logo} className="Login-logo" alt="logo" />
       </header>
+      <body className='Login-area'>
+        <h1>Login - Credenciais de acesso</h1>
+        <p>Login</p> 
+        <input className='input' type='email'></input>        
+        <p>Senha</p> 
+        <input className='input' type='password'></input> 
+        <p>Esqueci minha senha</p>
+        <button>Entrar</button>
+                
+      </body>
+      <footer className='footer'>
+        <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>
+      </footer>
     </div>
   );
 }
 
-export default App;
+export default Login;

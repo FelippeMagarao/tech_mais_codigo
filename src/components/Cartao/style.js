@@ -35,7 +35,6 @@ const Container = styled.div`
 
 const Simbolo = styled.span`
     font-weight: bolder;
-    color: red;
 `;
 
 const Descricao = styled.span`
