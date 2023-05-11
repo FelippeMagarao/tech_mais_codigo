@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/App';
-import reportWebVitals from './reportWebVitals';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Abertura from './pages/abertura';
 import Cadastro from './pages/cadastro';
 import Chamados from './pages/chamados';
+import reportWebVitals from './reportWebVitals';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const rotas = createBrowserRouter([
   {
@@ -24,7 +24,7 @@ const rotas = createBrowserRouter([
   {
     path: "cadastro",
     element: <Cadastro />
-  },
+  }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
