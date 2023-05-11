@@ -5,12 +5,14 @@ const MeuNav = styled.nav`
     flex-direction: row;
     gap: 2em;
     justify-content: center;
-    background-color: white;
-    color: black;
+    background-color: darkgray;
+    color: white;
     font-size: larger;
+    background-color: black;
 
     a {
         text-decoration: none;
+        color: white;
     }
 `;
 

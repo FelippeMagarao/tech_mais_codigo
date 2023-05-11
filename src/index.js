@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Sobre from './pages/Chamados';
 import Login from './pages/login';
+import Abertura from './pages/abertura';
 
 const rotas = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const rotas = createBrowserRouter([
   {
     path: "login",
     element: <Login />
+  },
+  {
+    path: "abertura",
+    element: <Abertura />
   },
 ])
 

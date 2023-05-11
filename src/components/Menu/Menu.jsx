@@ -3,11 +3,12 @@ import { MeuNav } from "./style";
 
 const Menu = () => (
     <MeuNav>
-        <Link to="/login">Área do Cliente</Link>
-        <Link to="/sobre">Sobre</Link>
-        <Link to="/parcerias">Parcerias</Link>
-        <Link to="/contato">Contato</Link>
-        <Link to="/trabalhe">Trabalho Conosco</Link>
+        <Link to="/login">Login</Link>
+        <Link to="/sobre">Chamados</Link>
+        <Link to="/abertura">Abrir chamado</Link>
+        <Link to="/dashboard">Dashboard</Link>
+        <Link to="/suporte">Suporte</Link>
+        <Link to="/trabalhe">Painel Administrativo</Link>
         
     </MeuNav>
 );

@@ -5,21 +5,23 @@
 }
 
 .Login-logo{
-  background-color: rgb(17, 17, 17);
+  background-color: black;
   justify-content: center;
   text-align: center;
     
 }
 
 .Login-area{
-  background-color: white;
-  color:#8257E6;
-  padding: 3px;
+  display: inline-block;
+  border: 3px solid #8257e6;
+  border-radius: 50px;
+  background-color: black;
+  color:white;
+  padding: 10px;
 
 }
 
 .footer{
   color: white;
   padding: 2px;
-  
 }
