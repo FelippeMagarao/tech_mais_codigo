@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 const Tudo = styled.div`
-    background-color: black;
-    color: white;
     height: 100vh;
     align-items: center;
 
@@ -19,15 +17,9 @@ const Titulos = styled.div`
 `
 
 const Container = styled.div`
-    border-radius: 5px;
-    border: solid 1px black;
-
-    display: grid;
     flex-direction: row;
     column-gap: 1em;
-
     margin: 5px;
-    border: 3px solid #8257e6;
     margin: 0 auto;
     width: 50%;
     

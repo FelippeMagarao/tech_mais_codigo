@@ -10,7 +10,7 @@ function Login() {
         <img src={logo} className="Login-logo" alt="logo" />
       </header>
       <body className='Login-area'>
-        <h1>Login - Credenciais de acesso</h1>
+        <h1>Login - Credenciais</h1>
         <p>Login</p> 
         <input className='input' type='email'></input>        
         <p>Senha</p> 

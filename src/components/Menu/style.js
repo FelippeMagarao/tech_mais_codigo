@@ -5,10 +5,10 @@ const MeuNav = styled.nav`
     flex-direction: row;
     gap: 2em;
     justify-content: center;
-    background-color: darkgray;
     color: white;
     font-size: larger;
-    background-color: black;
+    background-color: #02288b;
+    padding: 10px;
 
     a {
         text-decoration: none;
