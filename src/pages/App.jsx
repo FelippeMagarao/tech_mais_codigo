@@ -1,5 +1,4 @@
 import logo from './minha_foto.jpg';
-import './style.css';
 import Menu from '../components/Menu/Menu';
 
 function Login() {
@@ -16,7 +15,7 @@ function Login() {
         <p>Senha</p> 
         <input className='input' type='password'></input> 
         <p>Esqueci minha senha</p>
-        <button>Entrar</button>
+        <button className='botao'>Entrar</button>
                 
       </body>
       <footer className='footer'>

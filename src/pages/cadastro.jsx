@@ -29,8 +29,8 @@ function Cadastro() {
         <p>Data de cadastro</p> 
         <input type='date'></input> 
         <p></p>
-        <button>Enviar</button>
-        <button>Descartar</button>
+        <button className='botao'>Enviar</button>
+        <button className='botao'>Descartar</button>
                 
       </body>
       <footer className='footer'>
