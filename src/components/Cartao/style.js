@@ -21,12 +21,20 @@ const Container = styled.div`
     column-gap: 1em;
     margin: 5px;
     margin: 0 auto;
-    width: 50%;
-    
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 60rem;
+    margin-top: 15px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.1);
 `;
 
 const Simbolo = styled.span`
     font-weight: bolder;
+    text-align: left;
+    color: #f18535;
+    margin-right: 10px;
 `;
 
 const Descricao = styled.span`
@@ -39,6 +47,19 @@ const Descricao = styled.span`
 
 const Momento = styled.span`
     font-family: monospace;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #02288b;
 `;
 
-export { Container, Simbolo, Descricao, Momento , Tudo , Titulos};
+const Botao = styled.button`
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;`
+
+const Botao2 = styled.button`
+    margin-left: 10px;
+    margin-bottom: 4px;
+`
+
+export { Container, Simbolo, Descricao, Momento , Tudo , Titulos, Botao, Botao2};

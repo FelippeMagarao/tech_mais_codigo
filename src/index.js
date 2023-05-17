@@ -5,6 +5,7 @@ import App from './pages/App';
 import Abertura from './pages/abertura';
 import Cadastro from './pages/cadastro';
 import Chamados from './pages/chamados';
+import Suporte from './pages/suporte';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
@@ -24,6 +25,10 @@ const rotas = createBrowserRouter([
   {
     path: "cadastro",
     element: <Cadastro />
+  },
+  {
+    path: "suporte",
+    element: <Suporte />
   }
 ])
 
