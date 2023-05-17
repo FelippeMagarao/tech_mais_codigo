@@ -8,8 +8,8 @@ const Menu = () => (
         <Link to="/Chamados">Chamados</Link>
         <Link to="/Abertura">Abrir chamado</Link>
         <Link to="/Dashboard">Dashboard</Link>
-        <Link to="/painel">Painel Administrativo</Link>
-        <Link to="/suporte">Suporte</Link>
+        <Link to="/Painel">Painel Administrativo</Link>
+        <Link to="/Suporte">Suporte</Link>
         
     </MeuNav>
 );
