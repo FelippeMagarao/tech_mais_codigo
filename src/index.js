@@ -1,13 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './pages/App';
+import Abertura from './pages/abertura';
+import Cadastro from './pages/cadastro';
+import Chamados from './pages/chamados';
+import Suporte from './pages/suporte';
 import reportWebVitals from './reportWebVitals';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+const rotas = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />
+  },
+  {
+    path: "chamados",
+    element: <Chamados />
+  },
+  {
+    path: "abertura",
+    element: <Abertura />
+  },
+  {
+    path: "cadastro",
+    element: <Cadastro />
+  },
+  {
+    path: "suporte",
+    element: <Suporte />
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={rotas} />
   </React.StrictMode>
 );
 
