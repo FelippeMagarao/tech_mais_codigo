@@ -61,6 +61,30 @@
     padding: 0 1em 0 1em;
   }
 
-  {
+  h2{
+    padding: 0 0,5em 0 0,5em;
+  }
 
+  .Suporte {
+    text-align: center;
+    justify-content:center;  
+  }
+  
+  .Suporte-logo{
+    justify-content: center;
+    text-align: center;
+      
+  }
+
+  .Suporte-area{
+    display: inline-block;
+    border: 3px solid #02288b;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .Suporte {
+    text-align: center;
   }
