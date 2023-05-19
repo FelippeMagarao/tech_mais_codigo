@@ -6,6 +6,7 @@ import Abertura from './pages/abertura';
 import Cadastro from './pages/cadastro';
 import Chamados from './pages/chamados';
 import Suporte from './pages/suporte';
+import Sobre from './pages/sobre';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
@@ -29,6 +30,10 @@ const rotas = createBrowserRouter([
   {
     path: "suporte",
     element: <Suporte />
+  },
+  {
+    path: "sobre",
+    element: <Sobre />
   }
 ])
 
