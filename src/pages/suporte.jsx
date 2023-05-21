@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import { Tudo } from "../components/Cartao/style";
+import { Botao } from "../components/Cartao/style";
 import "../pages/style.css";
 import logo from './minha_foto.jpg';
 
@@ -15,11 +16,20 @@ function Suporte() {
     </header>
     <body className='Suporte-area'>
       <h1>Suporte TechMais</h1>
-      <p>Email</p>  
-      <h2>suporte@techmais.com</h2>     
-      <p>Telefone</p>
-      <h2>(21)9999-8888 /  (11) 98769-5555</h2> 
-      <p>Horário de funcionamento: 24h</p>              
+      <h2>Email</h2>  
+      <p>suporte@techmais.com</p>     
+      <h2>Telefone</h2>
+      <p>(21)9999-8888 /  (11) 98769-5555</p> 
+      <h2>Horário de funcionamento</h2>  
+      <p>24h/dia - 7 dias por semana</p>
+      <h2>Enviar uma solicitação</h2>  
+      <p>E-mail</p> 
+      <input className="email" type='email'></input>
+       <p>Sugestão / Problema</p> 
+      <input className="sugestao" type='text'></input>  
+      <br />     
+      <Botao>Enviar</Botao>    
+      <Botao>Descartar</Botao>       
     </body>
     <footer className='footer'>
       <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>

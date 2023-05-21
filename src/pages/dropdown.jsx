@@ -13,9 +13,9 @@ function Dropdown() {
         <label htmlFor="dropdown">Tipo de Chamado:</label>
         <select id="dropdown" value={selectedOption} onChange={handleOptionChange}>
           <option value="">Selecione...</option>
-          <option value="opcao1">Opção 1</option>
-          <option value="opcao2">Opção 2</option>
-          <option value="opcao3">Opção 3</option>
+          <option value="opcao1">Tecnologia</option>
+          <option value="opcao2">Comercial</option>
+          <option value="opcao3">RH</option>
         </select>
       </div>
     );
