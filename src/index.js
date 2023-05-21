@@ -7,6 +7,7 @@ import Cadastro from './pages/cadastro';
 import Chamados from './pages/chamados';
 import Suporte from './pages/suporte';
 import Sobre from './pages/sobre';
+import Dropdown from './pages/dropdown'; 
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
@@ -34,7 +35,12 @@ const rotas = createBrowserRouter([
   {
     path: "sobre",
     element: <Sobre />
-  }
+  },
+  {
+    path: "dropdown",
+    element: <Dropdown />
+  },
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
