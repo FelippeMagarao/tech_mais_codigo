@@ -1,6 +1,8 @@
 import logo from './minha_foto.jpg';
 import '../pages/style.css'
 import Menu from '../components/Menu/Menu';
+import Dropdown from '../pages/dropdown'; 
+import { Botao } from '../components/Cartao/style';
 
 function Abertura() {
     return (
@@ -11,8 +13,7 @@ function Abertura() {
       </header>
       <body className='Login-area'>
         <h1>Abertura de chamados</h1>
-        <p>Título do chamado</p> 
-        <input type='text'></input> 
+        <Dropdown />
 
         <p>Descrição do problema</p> 
         <input type='text'></input> 
@@ -26,8 +27,8 @@ function Abertura() {
         <p>Data de abertura</p> 
         <input type='date'></input> 
         <p></p>
-        <button>Enviar</button>
-        <button>Descartar</button>
+        <Botao>Enviar</Botao>
+        <Botao>Descartar</Botao>
                 
       </body>
       <footer className='footer'>
@@ -38,3 +39,5 @@ function Abertura() {
 }
 
 export default Abertura;
+
+

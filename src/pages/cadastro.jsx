@@ -1,6 +1,7 @@
 import logo from './minha_foto.jpg';
 import '../pages/style.css'
 import Menu from '../components/Menu/Menu';
+import { Botao } from '../components/Cartao/style';
 
 function Cadastro() {
     return (
@@ -29,8 +30,8 @@ function Cadastro() {
         <p>Data de cadastro</p> 
         <input type='date'></input> 
         <p></p>
-        <button className='botao'>Enviar</button>
-        <button className='botao'>Descartar</button>
+      <Botao>Enviar</Botao>
+      <Botao>Descartar</Botao>
                 
       </body>
       <footer className='footer'>
