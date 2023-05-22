@@ -51,10 +51,12 @@
   }
 
   input{
+    display: block;
     width: 20em;
     border: 2px solid black;
     border-radius: 7px;
     padding: 5px;
+    margin: 0 auto;
   }
   
   h1{
@@ -85,3 +87,10 @@
     background-color: rgba(0, 0, 0, 0.1);
   }
 
+  .sugestao{
+    height: 3em;
+  }
+
+  .Login-link{
+    display: block;
+  }

@@ -15,7 +15,7 @@ function Login() {
         <input className='input' type='email'></input>        
         <p>Senha</p> 
         <input className='input' type='password'></input> 
-        <p>Esqueci minha senha</p>
+        <a className='Login-link' href="/esqueci-minha-senha">Esqueci minha senha</a>
         <Botao>Entrar</Botao>
                 
       </body>
