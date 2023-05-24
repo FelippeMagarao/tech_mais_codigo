@@ -2,9 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/App';
+import Abertura from './pages/abertura';
+import Cadastro from './pages/cadastro';
+import Chamados from './pages/chamados';
+import Suporte from './pages/suporte';
+import Sobre from './pages/sobre';
+import Dropdown from './pages/dropdown'; 
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Sobre from './pages/Sobre';
 
 const rotas = createBrowserRouter([
   {
@@ -12,9 +17,30 @@ const rotas = createBrowserRouter([
     element: <App />
   },
   {
+    path: "chamados",
+    element: <Chamados />
+  },
+  {
+    path: "abertura",
+    element: <Abertura />
+  },
+  {
+    path: "cadastro",
+    element: <Cadastro />
+  },
+  {
+    path: "suporte",
+    element: <Suporte />
+  },
+  {
     path: "sobre",
     element: <Sobre />
-  }
+  },
+  {
+    path: "dropdown",
+    element: <Dropdown />
+  },
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

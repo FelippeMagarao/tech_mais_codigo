@@ -1,28 +1,29 @@
 import logo from './minha_foto.jpg';
-import './App.css';
 import Menu from '../components/Menu/Menu';
+import { Botao } from '../components/Cartao/style';
 
-function App() {
-  return (
-    <div className="App">
+function Login() {
+    return (
+    <div className="Login">
       <Menu />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <img src="img/minha_foto.jpg" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="Login-logo">
+        <img src={logo} className="Login-logo" alt="logo" />
       </header>
+      <body className='Login-area'>
+        <h1>Login - Credenciais</h1>
+        <p>Login</p> 
+        <input className='input' type='email'></input>        
+        <p>Senha</p> 
+        <input className='input' type='password'></input> 
+        <a className='Login-link' href="/esqueci-minha-senha">Esqueci minha senha</a>
+        <Botao>Entrar</Botao>
+                
+      </body>
+      <footer className='footer'>
+        <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>
+      </footer>
     </div>
   );
 }
 
-export default App;
+export default Login;
