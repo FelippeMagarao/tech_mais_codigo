@@ -14,7 +14,7 @@ function Suporte() {
     <header className="Suporte-logo">
       <img src={logo} className="Suporte-logo" alt="logo" />
     </header>
-    <body className='Suporte-area'>
+    <body className='Login-area'>
       <h1>Suporte TechMais</h1>
       <h2>Email</h2>  
       <p>suporte@techmais.com</p>     
