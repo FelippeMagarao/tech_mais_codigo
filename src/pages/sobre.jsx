@@ -6,6 +6,7 @@ import "../pages/style.css";
 import logo from './minha_foto.jpg';
 
 
+
 function Sobre() {
   return (
   <div className="Suporte">
@@ -29,7 +30,16 @@ function Sobre() {
       
       <p className="paragrafo">Se você está em busca de soluções tecnológicas inovadoras, confiáveis e personalizadas, você veio ao lugar certo. Junte-se a nós em nossa jornada de transformação digital e descubra o que a nossa empresa pode fazer por você.</p>
       </div> 
+      <div>
       <h2>Nossa equipe</h2>  
+        <img src="fotofelippe.png"></img>
+        <img src= "fotofernanda.jpg"></img>
+        <img src= "fotolari.jpg"></img>
+        <img src= "fotogi.png"></img>
+        <img src= "fotopedro.png"></img>
+        <img src= "fotojp.png"></img>
+
+      </div>
     </body>
     <footer className='footer'>
       <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>
