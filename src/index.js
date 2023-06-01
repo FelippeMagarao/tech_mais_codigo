@@ -11,6 +11,7 @@ import Dashboard from './pages/dashboard';
 import Dropdown from './pages/dropdown'; 
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Senha from './pages/senha';
 
 const rotas = createBrowserRouter([
   {
@@ -45,6 +46,11 @@ const rotas = createBrowserRouter([
     path: "dashboard",
     element: <Dashboard />
   },
+  {
+    path: "senha",
+    element: <Senha />
+  },
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

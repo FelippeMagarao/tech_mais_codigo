@@ -1,6 +1,9 @@
 import logo from './minha_foto.jpg';
 import Menu from '../components/Menu/Menu';
 import { Botao } from '../components/Cartao/style';
+import Senha from '../pages/senha'; 
+import { Link } from "react-router-dom";
+
 
 function Login() {
     return (
@@ -15,7 +18,8 @@ function Login() {
         <input className='input' type='email'></input>        
         <p>Senha</p> 
         <input className='input' type='password'></input> 
-        <a className='Login-link' href="/esqueci-minha-senha">Esqueci minha senha</a>
+        <Link to="/Senha">Esqueci minha senha</Link>
+
         <Botao>Entrar</Botao>
                 
       </body>
