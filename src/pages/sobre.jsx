@@ -4,6 +4,12 @@ import Cartao from "../components/Cartao/Cartao";
 import { Tudo } from "../components/Cartao/style";
 import "../pages/style.css";
 import logo from './minha_foto.jpg';
+import fotoFernanda from '../components/media/fotofernanda.png';
+import fotoGi from '../components/media/fotogi.png';
+import fotoLari from '../components/media/fotolari.png';
+import fotoPedro from '../components/media/fotopedro.png';
+import fotoFelippe from '../components/media/fotofelippe.png';
+import fotoJp from '../components/media/fotojp.png';
 
 
 
@@ -32,12 +38,43 @@ function Sobre() {
       </div> 
       <div>
       <h2>Nossa equipe</h2>  
-        <img src="fotofelippe.png"></img>
-        <img src= "fotofernanda.jpg"></img>
-        <img src= "fotolari.jpg"></img>
-        <img src= "fotogi.png"></img>
-        <img src= "fotopedro.png"></img>
-        <img src= "fotojp.png"></img>
+
+      <img
+      src={fotoFernanda}
+      alt="Minha Imagem"
+      style={{ width: '200px', height: '250px' }}
+      />
+
+      <img
+      src={fotoLari}
+      alt="Minha Imagem"
+      style={{ width: '200px', height: '250px' }}
+      />
+
+      <img
+      src={fotoGi}
+      alt="Minha Imagem"
+      style={{ width: '200px', height: '250px' }}
+      />
+
+      <img
+      src={fotoPedro}
+      alt="Minha Imagem"
+      style={{ width: '200px', height: '250px' }}
+      />
+
+      <img
+      src={fotoFelippe}
+      alt="Minha Imagem"
+      style={{ width: '200px', height: '250px' }}
+      />
+
+      <img
+      src={fotoJp}
+      alt="Minha Imagem"
+      style={{ width: '200px', height: '250px' }}
+      />
+
 
       </div>
     </body>
