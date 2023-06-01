@@ -1,7 +1,5 @@
 import React from "react";
 import Menu from "../components/Menu/Menu";
-import Cartao from "../components/Cartao/Cartao";
-import { Tudo } from "../components/Cartao/style";
 import "../pages/style.css";
 import logo from './minha_foto.jpg';
 import fotoFernanda from '../components/media/fotofernanda.png';
@@ -10,6 +8,7 @@ import fotoLari from '../components/media/fotolari.png';
 import fotoPedro from '../components/media/fotopedro.png';
 import fotoFelippe from '../components/media/fotofelippe.png';
 import fotoJp from '../components/media/fotojp.png';
+import { BsLinkedin } from 'react-icons/fa';
 
 
 
@@ -39,42 +38,45 @@ function Sobre() {
       <div>
       <h2>Nossa equipe</h2>  
 
-      <img
-      src={fotoFernanda}
-      alt="Minha Imagem"
-      style={{ width: '200px', height: '250px' }}
-      />
-
-      <img
-      src={fotoLari}
-      alt="Minha Imagem"
-      style={{ width: '200px', height: '250px' }}
-      />
-
-      <img
-      src={fotoGi}
-      alt="Minha Imagem"
-      style={{ width: '200px', height: '250px' }}
-      />
-
-      <img
-      src={fotoPedro}
-      alt="Minha Imagem"
-      style={{ width: '200px', height: '250px' }}
-      />
-
-      <img
-      src={fotoFelippe}
-      alt="Minha Imagem"
-      style={{ width: '200px', height: '250px' }}
-      />
-
-      <img
-      src={fotoJp}
-      alt="Minha Imagem"
-      style={{ width: '200px', height: '250px' }}
-      />
-
+    <div className="equipe">
+        <img
+          src={fotoFernanda}
+          alt="Minha Imagem"
+          style={{ width: '300px', height: '400px' }}
+        />
+        <a href="https://linkedin.com/" target="_blank" className="nomes">Fernanda Moysés</a>
+        <img
+          src={fotoLari}
+          alt="Minha Imagem"
+          style={{ width: '300px', height: '400px' }}
+        />
+        <a href="https://linkedin.com/" target="_blank" className="nomes">Larissa Nobrega</a>
+        <img
+          src={fotoGi}
+          alt="Minha Imagem"
+          style={{ width: '300px', height: '400px' }}
+        />
+        <a href="https://linkedin.com/" target="_blank" className="nomes">Giovanna Amaral</a>
+        <img
+          src={fotoPedro}
+          alt="Minha Imagem"
+          style={{ width: '300px', height: '400px' }}
+        />
+        <a href="https://linkedin.com/" target="_blank" className="nomes">Pedro Brito</a>
+       
+        <img
+          src={fotoFelippe}
+          alt="Minha Imagem"
+          style={{ width: '300px', height: '400px' }}
+        />
+        <a href="https://linkedin.com/" target="_blank" className="nomes">Felippe Magarão</a>
+        <img
+          src={fotoJp}
+          alt="Minha Imagem"
+          style={{ width: '300px', height: '400px' }}
+        />
+        <a href="https://linkedin.com/" target="_blank" className="nomes">João Pedro Bezamat</a>
+      </div>
 
       </div>
     </body>

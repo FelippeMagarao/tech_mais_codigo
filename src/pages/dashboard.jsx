@@ -8,6 +8,7 @@ function Dashboard() {
       <Menu />
 
 
+
       <footer className='footer'>
         <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>
       </footer>
