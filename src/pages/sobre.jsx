@@ -39,43 +39,64 @@ function Sobre() {
       <h2>Nossa equipe</h2>  
 
     <div className="equipe">
-        <img
-          src={fotoFernanda}
-          alt="Minha Imagem"
-          style={{ width: '300px', height: '400px' }}
-        />
-        <a href="https://linkedin.com/" target="_blank" className="nomes">Fernanda Moysés</a>
-        <img
-          src={fotoLari}
-          alt="Minha Imagem"
-          style={{ width: '300px', height: '400px' }}
-        />
-        <a href="https://linkedin.com/" target="_blank" className="nomes">Larissa Nobrega</a>
-        <img
-          src={fotoGi}
-          alt="Minha Imagem"
-          style={{ width: '300px', height: '400px' }}
-        />
-        <a href="https://linkedin.com/" target="_blank" className="nomes">Giovanna Amaral</a>
-        <img
-          src={fotoPedro}
-          alt="Minha Imagem"
-          style={{ width: '300px', height: '400px' }}
-        />
-        <a href="https://linkedin.com/" target="_blank" className="nomes">Pedro Brito</a>
-       
-        <img
-          src={fotoFelippe}
-          alt="Minha Imagem"
-          style={{ width: '300px', height: '400px' }}
-        />
-        <a href="https://linkedin.com/" target="_blank" className="nomes">Felippe Magarão</a>
-        <img
-          src={fotoJp}
-          alt="Minha Imagem"
-          style={{ width: '300px', height: '400px' }}
-        />
-        <a href="https://linkedin.com/" target="_blank" className="nomes">João Pedro Bezamat</a>
+        <div className="fernanda">
+          <img
+            src={fotoFernanda}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <a href="https://linkedin.com/" target="_blank" className="nomes">Fernanda Moysés</a>
+        </div>
+
+        <div className="div-membro">
+          <img
+            src={fotoLari}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <a href="https://linkedin.com/" target="_blank" className="nomes">Larissa Nobrega</a>
+        </div>
+
+        <div className="div-membro">
+          <img
+            src={fotoGi}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <a href="https://linkedin.com/" target="_blank" className="nomes">Giovanna Amaral</a>
+        </div>
+        <div className="div-membro">
+          <img
+            src={fotoPedro}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <a href="https://linkedin.com/" target="_blank" className="nomes">Pedro Brito</a>
+        </div>
+
+       <div className="div-membro">
+          <img
+            src={fotoFelippe}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <a href="https://linkedin.com/" target="_blank" className="nomes">Felippe Magarão</a>
+        </div>
+        
+        <div className="div-membro">
+          <img
+            src={fotoJp}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+          className="imagem-sobre"           
+          />
+          <a href="https://linkedin.com/" target="_blank" className="nomes">João Pedro Bezamat</a>
+        </div>
       </div>
 
       </div>
