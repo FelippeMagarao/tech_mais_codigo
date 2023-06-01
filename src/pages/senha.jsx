@@ -2,21 +2,20 @@ import logo from './minha_foto.jpg';
 import Menu from '../components/Menu/Menu';
 import { Botao } from '../components/Cartao/style';
 
-function Login() {
+function Senha() {
     return (
-    <div className="Login">
+    <div className="Senha">
       <Menu />
-      <header className="Login-logo">
-        <img src={logo} className="Login-logo" alt="logo" />
+      <header className="Senha-logo">
+        <img src={logo} className="Senha-logo" alt="logo" />
       </header>
-      <body className='Login-area'>
-        <h1>Login - Credenciais</h1>
-        <p>Login</p> 
+      <body className='Senha-area'>
+        <h1> Recuperação de senha</h1>
+        <p>Insira seu email</p> 
         <input className='input' type='email'></input>        
-        <p>Senha</p> 
+        <p>Insira sua nova Senha</p> 
         <input className='input' type='password'></input> 
-        <a className='Login-link' href="/esqueci-minha-senha">Esqueci minha senha</a>
-        <Botao>Entrar</Botao>
+        <Botao>Criar nova senha</Botao>
                 
       </body>
       <footer className='footer'>
@@ -26,4 +25,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Senha;

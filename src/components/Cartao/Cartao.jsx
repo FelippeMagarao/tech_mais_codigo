@@ -1,18 +1,13 @@
-import { Container, Descricao, Momento, Simbolo } from "./style";
+import { Container, Descricao, Momento, Simbolo, Botao2 } from "./style";
 
 const Cartao = ( props ) => (
     <Container>
         <Simbolo>{ props.simb }</Simbolo>
-        <Descricao>Lorem ipsum dolor sit, 
-            amet consectetur adipisicing elit. 
-            Doloribus voluptas numquam possimus 
-            obcaecati impedit suscipit illo 
-            doloremque enim laudantium quaerat 
-            pariatur amet dolores harum eveniet 
-            voluptate dolorum, ratione 
-            ipsa blanditiis!
+        <Descricao> 
+            Responsável pela abertura   /   Descrição do chamado   /  Criticidade   /   Contato 
         </Descricao>
         <Momento>{ props.data }</Momento>
+        <Botao2>Mais informações</Botao2>
     </Container>
 );
 
