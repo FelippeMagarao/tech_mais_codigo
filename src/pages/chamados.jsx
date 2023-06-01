@@ -50,6 +50,11 @@ const Chamados = () => (
         data={"30/01/2002"}
     />
 
+    <footer className='footer'>
+        <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>
+    </footer>
+
     </Tudo>
+    
 );
 export default Chamados;
