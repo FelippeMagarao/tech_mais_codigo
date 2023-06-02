@@ -105,6 +105,8 @@
 
   .equipe{
     display: block;
+    margin: 0 auto;
+    line-height: 5px;
   }
 
   .nomes{
@@ -113,6 +115,7 @@
     display: block;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
   }
 
   .div-membro{
@@ -123,4 +126,9 @@
 .imagem-sobre{
   border: 3px solid #02288b;
   border-radius: 1.5em;
+}
+
+.linkedin{
+  text-decoration: none;
+  color: blue;
 }

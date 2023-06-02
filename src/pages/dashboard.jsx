@@ -6,10 +6,7 @@ function Dashboard() {
     return (
     <div className="Login">
       <Menu />
-
-
-
-      <footer className='footer'>
+       <footer className='footer'>
         <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>
       </footer>
     </div>

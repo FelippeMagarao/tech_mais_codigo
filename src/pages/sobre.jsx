@@ -39,14 +39,16 @@ function Sobre() {
       <h2>Nossa equipe</h2>  
 
     <div className="equipe">
-        <div className="fernanda">
+        <div className="div-membro">
           <img
             src={fotoFernanda}
             alt="Minha Imagem"
             style={{ width: '300px', height: '400px' }}
             className="imagem-sobre"
           />
-          <a href="https://linkedin.com/" target="_blank" className="nomes">Fernanda Moysés</a>
+          <p className="nomes">Fernanda Moysés</p>
+          <p className="descricao">IBMEC - Ciência de dados e IA</p>
+          <a href="https://www.linkedin.com/in/fernanda-moys%C3%A9s-712787190/" target="_blank" className="linkedin">Linkedin</a>
         </div>
 
         <div className="div-membro">
@@ -56,7 +58,9 @@ function Sobre() {
             style={{ width: '300px', height: '400px' }}
             className="imagem-sobre"
           />
-          <a href="https://linkedin.com/" target="_blank" className="nomes">Larissa Nobrega</a>
+          <p className="nomes">Larissa Nobrega</p>
+          <p className="descricao">IBMEC - Ciência de dados e IA</p>
+          <a href="https://linkedin.com/" target="_blank" className="linkedin">Linkedin</a>
         </div>
 
         <div className="div-membro">
@@ -66,7 +70,9 @@ function Sobre() {
             style={{ width: '300px', height: '400px' }}
             className="imagem-sobre"
           />
-          <a href="https://linkedin.com/" target="_blank" className="nomes">Giovanna Amaral</a>
+          <p className="nomes">Giovanna Amaral</p>
+          <p className="descricao">IBMEC - Engenharia da Computação</p>
+          <a href="https://www.linkedin.com/in/giovanna-amaral1110/" target="_blank" className="linkedin">Linkedin</a>
         </div>
         <div className="div-membro">
           <img
@@ -75,7 +81,9 @@ function Sobre() {
             style={{ width: '300px', height: '400px' }}
             className="imagem-sobre"
           />
-          <a href="https://linkedin.com/" target="_blank" className="nomes">Pedro Brito</a>
+          <p className="nomes">Pedro Brito</p>
+          <p className="descricao">IBMEC - Full Stack Development</p>
+          <a href="https://www.linkedin.com/in/pedro-brito-12b13a218/" target="_blank" className="linkedin">Linkedin</a>
         </div>
 
        <div className="div-membro">
@@ -85,7 +93,9 @@ function Sobre() {
             style={{ width: '300px', height: '400px' }}
             className="imagem-sobre"
           />
-          <a href="https://linkedin.com/" target="_blank" className="nomes">Felippe Magarão</a>
+          <p className="nomes">Felippe Magarão</p>
+          <p className="descricao">IBMEC - Full Stack Development</p>
+          <a href="https://www.linkedin.com/in/felippe-magarao-58936095/" target="_blank" className="linkedin">Linkedin</a>
         </div>
         
         <div className="div-membro">
@@ -95,7 +105,9 @@ function Sobre() {
             style={{ width: '300px', height: '400px' }}
           className="imagem-sobre"           
           />
-          <a href="https://linkedin.com/" target="_blank" className="nomes">João Pedro Bezamat</a>
+          <p className="nomes">João Pedro Bezamat</p>
+          <p className="descricao">IBMEC - Full Stack Development</p>
+          <a href="https://linkedin.com/" target="_blank" className="linkedin">Linkedin</a>
         </div>
       </div>
 
