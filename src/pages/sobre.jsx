@@ -1,9 +1,15 @@
 import React from "react";
 import Menu from "../components/Menu/Menu";
-import Cartao from "../components/Cartao/Cartao";
-import { Tudo } from "../components/Cartao/style";
 import "../pages/style.css";
 import logo from './minha_foto.jpg';
+import fotoFernanda from '../components/media/fotofernanda.png';
+import fotoGi from '../components/media/fotogi.png';
+import fotoLari from '../components/media/fotolari.png';
+import fotoPedro from '../components/media/fotopedro.png';
+import fotoFelippe from '../components/media/fotofelippe.png';
+import fotoJp from '../components/media/fotojp.png';
+import { BsLinkedin } from 'react-icons/fa';
+
 
 
 function Sobre() {
@@ -29,7 +35,83 @@ function Sobre() {
       
       <p className="paragrafo">Se você está em busca de soluções tecnológicas inovadoras, confiáveis e personalizadas, você veio ao lugar certo. Junte-se a nós em nossa jornada de transformação digital e descubra o que a nossa empresa pode fazer por você.</p>
       </div> 
+      <div>
       <h2>Nossa equipe</h2>  
+
+    <div className="equipe">
+        <div className="div-membro">
+          <img
+            src={fotoFernanda}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <p className="nomes">Fernanda Moysés</p>
+          <p className="descricao">IBMEC - Ciência de dados e IA</p>
+          <a href="https://www.linkedin.com/in/fernanda-moys%C3%A9s-712787190/" target="_blank" className="linkedin">Linkedin</a>
+        </div>
+
+        <div className="div-membro">
+          <img
+            src={fotoLari}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <p className="nomes">Larissa Nobrega</p>
+          <p className="descricao">IBMEC - Ciência de dados e IA</p>
+          <a href="https://linkedin.com/" target="_blank" className="linkedin">Linkedin</a>
+        </div>
+
+        <div className="div-membro">
+          <img
+            src={fotoGi}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <p className="nomes">Giovanna Amaral</p>
+          <p className="descricao">IBMEC - Engenharia da Computação</p>
+          <a href="https://www.linkedin.com/in/giovanna-amaral1110/" target="_blank" className="linkedin">Linkedin</a>
+        </div>
+        <div className="div-membro">
+          <img
+            src={fotoPedro}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <p className="nomes">Pedro Brito</p>
+          <p className="descricao">IBMEC - Full Stack Development</p>
+          <a href="https://www.linkedin.com/in/pedro-brito-12b13a218/" target="_blank" className="linkedin">Linkedin</a>
+        </div>
+
+       <div className="div-membro">
+          <img
+            src={fotoFelippe}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+            className="imagem-sobre"
+          />
+          <p className="nomes">Felippe Magarão</p>
+          <p className="descricao">IBMEC - Full Stack Development</p>
+          <a href="https://www.linkedin.com/in/felippe-magarao-58936095/" target="_blank" className="linkedin">Linkedin</a>
+        </div>
+        
+        <div className="div-membro">
+          <img
+            src={fotoJp}
+            alt="Minha Imagem"
+            style={{ width: '300px', height: '400px' }}
+          className="imagem-sobre"           
+          />
+          <p className="nomes">João Pedro Bezamat</p>
+          <p className="descricao">IBMEC - Full Stack Development</p>
+          <a href="https://linkedin.com/" target="_blank" className="linkedin">Linkedin</a>
+        </div>
+      </div>
+
+      </div>
     </body>
     <footer className='footer'>
       <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>

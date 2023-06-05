@@ -7,9 +7,11 @@ import Cadastro from './pages/cadastro';
 import Chamados from './pages/chamados';
 import Suporte from './pages/suporte';
 import Sobre from './pages/sobre';
+import Dashboard from './pages/dashboard';
 import Dropdown from './pages/dropdown'; 
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Senha from './pages/senha';
 
 const rotas = createBrowserRouter([
   {
@@ -39,6 +41,14 @@ const rotas = createBrowserRouter([
   {
     path: "dropdown",
     element: <Dropdown />
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard />
+  },
+  {
+    path: "senha",
+    element: <Senha />
   },
 
 ])

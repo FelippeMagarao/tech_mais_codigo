@@ -1,21 +1,27 @@
 import logo from './minha_foto.jpg';
 import Menu from '../components/Menu/Menu';
 import { Botao } from '../components/Cartao/style';
+import { Link } from "react-router-dom";
 
-function Senha() {
+
+function Login() {
     return (
-    <div className="Senha">
+    <div className="Login">
       <Menu />
-      <header className="Senha-logo">
-        <img src={logo} className="Senha-logo" alt="logo" />
+      <header className="Login-logo">
+        <img src={logo} className="Login-logo" alt="logo" />
       </header>
-      <body className='Senha-area'>
-        <h1> Recuperação de senha</h1>
-        <p>Insira seu email</p> 
+      <body className='Login-area'>
+        <h1>Redefinir senha</h1>
+        <p>E-mail corporativo</p> 
         <input className='input' type='email'></input>        
-        <p>Insira sua nova Senha</p> 
+        <p>Nova senha</p> 
         <input className='input' type='password'></input> 
-        <Botao>Criar nova senha</Botao>
+        <p>Confirmar nova senha</p> 
+        <input className='input' type='password'></input> 
+
+        <Botao>Salvar</Botao>
+        <Botao>Descartar</Botao>
                 
       </body>
       <footer className='footer'>
@@ -25,4 +31,4 @@ function Senha() {
   );
 }
 
-export default Senha;
+export default Login;
