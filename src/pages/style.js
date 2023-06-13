@@ -1,3 +1,6 @@
+import styled from "styled-components";
+
+const AppStyle = styled.div`
 .App {
     text-align: center;
   }
@@ -44,13 +47,16 @@
   }
 
   .footer{
-    padding: 10px;
+    padding: 20px;
     background-color: #02288b;
     color: white;
     margin-top: 4em;
-    position: static;
     text-align: center;
-  }
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    }
 
   input{
     display: block;
@@ -132,3 +138,6 @@
   text-decoration: none;
   color: blue;
 }
+`
+
+export { AppStyle };
