@@ -20,8 +20,8 @@ function Login() {
             <p>Confirmar nova senha</p> 
             <input className='input' type='password'></input> 
 
-            <button className='button1'>Enviar</button>
-            <button className='button1'>Descartar</button>
+            <a href='/' className='button1'>Enviar</a>
+            <a href='' className='button1'>Descartar</a>
                     
           </body>
           <footer className='footer'>

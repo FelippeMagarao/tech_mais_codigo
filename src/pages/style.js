@@ -44,7 +44,6 @@ const AppStyle = styled.div`
     font-size: large;
     background-color: rgba(0, 0, 0, 0.1);
     width: 25em;
-    margin-bottom: 50px;
   }
 
   .footer{
@@ -145,10 +144,15 @@ const AppStyle = styled.div`
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  color: black;
   padding: 10px;
   margin-top: 10px;
   margin-left: 10px;
   border-radius: 10px;
+}
+
+.button2{
+  color: black;
 }
 
 .titulos{
