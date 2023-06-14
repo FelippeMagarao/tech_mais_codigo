@@ -21,7 +21,10 @@ const Chamados = () => (
                 simb={"⚠️ Gravidade"}
                 data={"05/03/1995"}
             />
-
+            <Cartao 
+                simb={"⚠️ Gravidade"}
+                data={"05/03/1995"}
+            />
 
             <h2 class="titulos">Chamados pendentes</h2>
             <Cartao 
@@ -31,6 +34,10 @@ const Chamados = () => (
             <Cartao 
                 simb={"⚠️ Gravidade"}
                 data={"30/01/2002"}
+            />
+            <Cartao 
+                simb={"⚠️ Gravidade"}
+                data={"05/03/1995"}
             />
             <Cartao 
                 simb={"⚠️ Gravidade"}
@@ -49,6 +56,10 @@ const Chamados = () => (
                 <Cartao 
                 simb={"⚠️ Gravidade"}
                 data={"30/01/2002"}
+            />
+            <Cartao 
+                simb={"⚠️ Gravidade"}
+                data={"05/03/1995"}
             />
 
             <footer className='footer'>

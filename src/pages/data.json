@@ -1,72 +1,72 @@
 [
 {
-      "nome": "João",
-      "departamento": "operacional",
+      "nome": "Jorge",
+      "departamento": "Operações",
       "idade": 35,
       "genero": "masculino",
-      "salario": 5000
+      "chamados": 2
     },
     {
-      "nome": "Maria",
-      "departamento": "tecnologia",
+      "nome": "Felippe",
+      "departamento": "Tecnologia",
       "idade": 28,
       "genero": "feminino",
-      "salario": 7000
+      "chamados": 1
     },
     {
-      "nome": "Pedro",
-      "departamento": "comercial",
+      "nome": "Larissa",
+      "departamento": "Comercial",
       "idade": 42,
       "genero": "masculino",
-      "salario": 6000
+      "chamados": 3
+    },
+    {
+      "nome": "Giovanna",
+      "departamento": "Operações",
+      "idade": 31,
+      "genero": "feminino",
+      "chamados": 5
+    },
+    {
+      "nome": "João",
+      "departamento": "Tecnologia",
+      "idade": 39,
+      "genero": "masculino",
+      "chamados": 14
+    },
+    {
+      "nome": "Fernanda",
+      "departamento": "Comercial",
+      "idade": 26,
+      "genero": "feminino",
+      "chamados": 12
+    },
+    {
+      "nome": "Magarão",
+      "departamento": "Operações",
+      "idade": 33,
+      "genero": "masculino",
+      "chamados": 10
     },
     {
       "nome": "Ana",
-      "departamento": "operacional",
-      "idade": 31,
-      "genero": "feminino",
-      "salario": 4500
-    },
-    {
-      "nome": "Carlos",
-      "departamento": "tecnologia",
-      "idade": 39,
-      "genero": "masculino",
-      "salario": 8000
-    },
-    {
-      "nome": "Laura",
-      "departamento": "comercial",
-      "idade": 26,
-      "genero": "feminino",
-      "salario": 5500
-    },
-    {
-      "nome": "Mário",
-      "departamento": "operacional",
-      "idade": 33,
-      "genero": "masculino",
-      "salario": 4800
-    },
-    {
-      "nome": "Sofia",
-      "departamento": "tecnologia",
+      "departamento": "Tecnologia",
       "idade": 29,
       "genero": "feminino",
-      "salario": 6500
+      "chamados": 15
     },
     {
-      "nome": "Rafael",
-      "departamento": "comercial",
+      "nome": "Gabriel",
+      "departamento": "Comercial",
       "idade": 37,
       "genero": "masculino",
-      "salario": 7000
+      "chamados": 5
     },
     {
-      "nome": "Lara",
-      "departamento": "operacional",
+      "nome": "Henrique",
+      "departamento": "Operações",
       "idade": 24,
       "genero": "feminino",
-      "salario": 4200
+      "chamados": 1
     }
 ]

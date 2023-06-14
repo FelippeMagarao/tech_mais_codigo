@@ -47,7 +47,9 @@ const AppStyle = styled.div`
   }
 
   .footer{
-    padding: 20px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #02288b;
     color: white;
     margin-top: 4em;
@@ -55,7 +57,6 @@ const AppStyle = styled.div`
     position: static;
     left: 0;
     bottom: 0;
-    width: 100%;
     }
 
   input{
