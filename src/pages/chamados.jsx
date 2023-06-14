@@ -1,11 +1,9 @@
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
-import { Tudo } from "../components/Cartao/style";
 import { AppStyle } from "./style";
 
 const Chamados = () => (
     <AppStyle>
-            <Tudo>
             <Menu />
             <h1 class="titulos">Chamados</h1>
             <h2 class="titulos">Chamados abertos</h2>
@@ -65,8 +63,6 @@ const Chamados = () => (
             <footer className='footer'>
                 <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>
             </footer>
-
-            </Tudo>
         </AppStyle>
 );
 export default Chamados;

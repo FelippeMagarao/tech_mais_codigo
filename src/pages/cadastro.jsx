@@ -1,7 +1,7 @@
 import logo from './minha_foto.jpg';
 import Menu from '../components/Menu/Menu';
-import { Botao } from '../components/Cartao/style';
 import { AppStyle } from "./style";
+import { Link } from "react-router-dom";
 
 function Cadastro() {
     return (
@@ -31,8 +31,8 @@ function Cadastro() {
           <p>Data de cadastro</p> 
           <input type='date'></input> 
           <p></p>
-        <Botao>Enviar</Botao>
-        <Botao>Descartar</Botao>
+          <button className='button1'>Enviar</button>
+          <button className='button1'>Descartar</button>
                   
         </body>
         <footer className='footer'>

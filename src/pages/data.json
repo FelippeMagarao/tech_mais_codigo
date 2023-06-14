@@ -2,71 +2,51 @@
 {
       "nome": "Jorge",
       "departamento": "Operações",
-      "idade": 35,
-      "genero": "masculino",
       "chamados": 2
     },
     {
       "nome": "Felippe",
       "departamento": "Tecnologia",
-      "idade": 28,
-      "genero": "feminino",
       "chamados": 1
     },
     {
       "nome": "Larissa",
       "departamento": "Comercial",
-      "idade": 42,
-      "genero": "masculino",
       "chamados": 3
     },
     {
       "nome": "Giovanna",
       "departamento": "Operações",
-      "idade": 31,
-      "genero": "feminino",
       "chamados": 5
     },
     {
       "nome": "João",
       "departamento": "Tecnologia",
-      "idade": 39,
-      "genero": "masculino",
       "chamados": 14
     },
     {
       "nome": "Fernanda",
       "departamento": "Comercial",
-      "idade": 26,
-      "genero": "feminino",
       "chamados": 12
     },
     {
       "nome": "Magarão",
       "departamento": "Operações",
-      "idade": 33,
-      "genero": "masculino",
       "chamados": 10
     },
     {
       "nome": "Ana",
       "departamento": "Tecnologia",
-      "idade": 29,
-      "genero": "feminino",
       "chamados": 15
     },
     {
       "nome": "Gabriel",
       "departamento": "Comercial",
-      "idade": 37,
-      "genero": "masculino",
       "chamados": 5
     },
     {
       "nome": "Henrique",
       "departamento": "Operações",
-      "idade": 24,
-      "genero": "feminino",
       "chamados": 1
     }
 ]

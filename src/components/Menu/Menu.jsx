@@ -9,8 +9,7 @@ const Menu = () => (
         <Link to="/Abertura">Abrir chamado</Link>
         <Link to="/Dashboard">Dashboard</Link>
         <Link to="/Sobre">Sobre</Link>
-        <Link to="/Suporte">Suporte</Link>
-        
+        <Link to="/Suporte">Suporte</Link>     
     </MeuNav>
 );
 

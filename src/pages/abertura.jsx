@@ -1,9 +1,8 @@
 import logo from './minha_foto.jpg';
 import Menu from '../components/Menu/Menu';
 import Dropdown from '../pages/dropdown'; 
-import { Botao } from '../components/Cartao/style';
 import { AppStyle } from "./style";
-
+import { Link } from "react-router-dom";
 
 function Abertura() {
     return (
@@ -29,8 +28,8 @@ function Abertura() {
             <p>Data de abertura</p> 
             <input type='date'></input> 
             <p></p>
-            <Botao>Enviar</Botao>
-            <Botao>Descartar</Botao>
+            <a href='/Chamados' className='button1'>Enviar</a>
+            <a href='' className='button1'>Descartar</a>
                     
           </body>
           <footer className='footer'>

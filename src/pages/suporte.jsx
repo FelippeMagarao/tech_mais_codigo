@@ -2,7 +2,6 @@ import React from "react";
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import { Tudo } from "../components/Cartao/style";
-import { Botao } from "../components/Cartao/style";
 import logo from './minha_foto.jpg';
 import { AppStyle } from "./style";
 
@@ -29,8 +28,8 @@ function Suporte() {
         <p>Sugestão / Problema</p> 
         <input className="sugestao" type='text'></input>  
         <br />     
-        <Botao>Enviar</Botao>    
-        <Botao>Descartar</Botao>       
+        <a href="" className="button1">Enviar</a>
+        <a href="" className="button1">Descartar</a>     
       </body>
       <footer className='footer'>
         <p>Desenvolvido por @Techmais. Todos os direitos reservados. </p>
