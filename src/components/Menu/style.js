@@ -7,7 +7,7 @@ const MeuNav = styled.nav`
     justify-content: center;
     color: white;
     font-size: larger;
-    background-color: #02288b;
+    background-color: #3e74b4;
     padding: 10px;
 
     a {

@@ -15,7 +15,7 @@ function Dropdown() {
           <option value="">Selecione...</option>
           <option value="opcao1">Tecnologia</option>
           <option value="opcao2">Comercial</option>
-          <option value="opcao3">RH</option>
+          <option value="opcao3">Operações</option>
         </select>
       </div>
     );

@@ -1,13 +1,12 @@
-import { Container, Descricao, Momento, Simbolo, Botao2 } from "./style";
+import { Container, Descricao, Momento, Simbolo } from "./style";
 
 const Cartao = ( props ) => (
     <Container>
         <Simbolo>{ props.simb }</Simbolo>
         <Descricao> 
-            Responsável pela abertura   /   Descrição do chamado   /  Criticidade   /   Contato 
+            Funcionário  |  Descrição  | Criticidade  |  Contato 
         </Descricao>
         <Momento>{ props.data }</Momento>
-        <Botao2>Mais informações</Botao2>
     </Container>
 );
 

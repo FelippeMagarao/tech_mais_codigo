@@ -1,3 +1,6 @@
+import styled from "styled-components";
+
+const AppStyle = styled.div`
 .App {
     text-align: center;
   }
@@ -35,7 +38,7 @@
   
   .Login-area{
     display: inline-block;
-    border: 3px solid #02288b;
+    border: 3px solid #3e74b4;
     border-radius: 50px;
     padding: 10px;
     font-size: large;
@@ -44,13 +47,17 @@
   }
 
   .footer{
-    padding: 10px;
-    background-color: #02288b;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3e74b4;
     color: white;
     margin-top: 4em;
-    position: static;
     text-align: center;
-  }
+    position: static;
+    left: 0;
+    bottom: 0;
+    }
 
   input{
     display: block;
@@ -59,14 +66,6 @@
     border-radius: 7px;
     padding: 5px;
     margin: 0 auto;
-  }
-  
-  h1{
-    padding: 0 1em 0 1em;
-  }
-
-  h2{
-    padding: 0 0,5em 0 0,5em;
   }
 
   .Suporte {
@@ -90,7 +89,7 @@
 
   .Sobre-area{
     display: inline-block;
-    border: 3px solid #02288b;
+    border: 3px solid #3e74b4;
     border-radius: 50px;
     padding: 10px;
     font-size: large;
@@ -124,7 +123,7 @@
 
 
 .imagem-sobre{
-  border: 3px solid #02288b;
+  border: 3px solid #3e74b4;
   border-radius: 1.5em;
 }
 
@@ -132,3 +131,33 @@
   text-decoration: none;
   color: blue;
 }
+
+
+.button1{
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 4px;
+  border: 1px solid #3e74b4;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.button2{
+  color: black;
+}
+
+.titulos{
+  text-align: center;
+}
+`
+
+export { AppStyle };
